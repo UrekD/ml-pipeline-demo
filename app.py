@@ -14,7 +14,7 @@ def load_model():
     if os.path.exists(model_path):
         with open(model_path, 'rb') as f:
             model = pickle.load(f)
-        print("Model loaded successfully!")
+        print("Model loaded successfully!!!")
     else:
         print("Model not found. Training new model...")
         import sys

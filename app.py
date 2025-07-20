@@ -16,7 +16,7 @@ def load_model():
             model = pickle.load(f)
         print("Model loaded successfully!!!")
     else:
-        print("Model not found. Training new model...!!!")
+        print("Model not found. Training new model...!!!ddd")
         import sys
         sys.path.append('.')
         from train import train_model
